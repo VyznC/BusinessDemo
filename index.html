@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        position: relative;
+      }
+
+      nav {
+        text-transform: uppercase;
+        position: fixed;
+        top: 0;
+        width: 1500px;
+        z-index: 3;
+      }
+
+      .top {
+        list-style-type: none;
+        display: flex;
+        list-style-type: none;
+        padding: 40px 0 20px 500px;
+        overflow: hidden;
+        background-color: rgb(112, 13, 13);
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .g {
+        /* margin: 10 30px 10px 30px; */
+        padding: 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .g:hover {
+        border-bottom: black solid 2px;
+      }
+
+      #ref {
+        text-transform: capitalize;
+      }
+
+      .dropdown {
+        position: absolute;
+        left: 1250px;
+      }
+
+      .dropdowncontent {
+        display: none;
+        border: 1px solid rgb(0, 0, 0);
+        width: 91px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: 40.5px;
+        left: 0.1px;
+        text-align: center;
+        line-height: 30px;
+      }
+
+      .dropdown:hover .dropdowncontent {
+        display: block;
+      }
+
+      .info {
+        border-color: red;
+      }
+
+      .r {
+        color: rgb(12, 213, 210);
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      .r:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      #foot {
+        /* border: 1px red solid; */
+        background-image: url(../img/ney.jpg);
+        /* background-color: red; */
+        height: 600px;
+        background-size: cover;
+        margin: 80px 0 0 0;
+      }
+
+      #run {
+        /* border: 1px red solid; */
+        height: 600px;
+        background-image: url(../img/bolt.jpg);
+        background-size: cover;
+      }
+
+      #fb {
+        /* border: 1px red solid; */
+        height: 600px;
+        background-image: url(../img/brady.jpg);
+        background-size: cover;
+      }
+
+      #body {
+        /* border: 1px red solid; */
+        height: 600px;
+        background-image: url(../img/cbum.jpg);
+        background-size: cover;
+      }
+
+      #fff {
+        background-color: rgba(255, 255, 255, 0.362);
+        width: 35%;
+        position: absolute;
+        border: black solid 1px;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 40px 0 0px 30px;
+      }
+
+      #fff p {
+        font-size: smaller;
+        margin-bottom: 30px;
+      }
+      #rrr {
+        background-color: rgba(255, 255, 255, 0.362);
+        width: 35%;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 40px;
+        border: black solid 1px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      #rrr p {
+        font-size: smaller;
+        margin-bottom: 30px;
+      }
+      #bbb {
+        background-color: rgba(255, 255, 255, 0.362);
+        width: 35%;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 40px;
+        border: black solid 1px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      #bbb p {
+        font-size: smaller;
+        margin-bottom: 30px;
+      }
+      #bob {
+        background-color: rgba(255, 255, 255, 0.362);
+        width: 35%;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 40px;
+        border: black solid 1px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      #bob p {
+        font-size: smaller;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      h1 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      img {
+        width: 70px;
+        position: absolute;
+        top: 15px;
+        left: 200px;
+        border-radius: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="../img/spartanlog.webp" alt="" />
+      <ul class="top">
+        <li class="g"><a href="equip.html">Equipment</a></li>
+        <li class="g"><a href="plans.html">Plans</a></li>
+        <li class="g"><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown , g" id="ref">
+          <a href="javascript:void(0)" class="dropbtn">ACCOUNT</a>
+          <div class="dropdowncontent">
+            <a class="r" href="signup.html">Sign Up</a>
+            <a class="r" href="login.html">Login</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="foot">
+      <div id="fff">
+        <h1>FOOTBALL</h1>
+        <p>
+          Association football, more commonly known as simply football or
+          soccer, is a team sport played between two teams of 11 players who
+          primarily use their feet to propel the ball around a rectangular field
+          called a pitch
+        </p>
+        <p>Equipment: Football (or soccer ball) Shinpads</p>
+        <p>
+          Olympic: Men's since the 1900 Olympics and women's since the 1996
+          Olympics
+        </p>
+        <p>
+          Venue: Football pitch (also known as football field, football ground,
+          soccer field, soccer pitch or simply "pitch")
+        </p>
+        <p>First played: Mid-19th century England</p>
+        <p>Highest governing body: FIFA</p>
+        <p>Mixed-sex: No, separate competitions</p>
+        <p>Team members: 11 per side (including goalkeeper)</p>
+      </div>
+    </div>
+    <div id="run">
+      <div id="rrr">
+        <h1>ATHLETICS</h1>
+        <p>
+          Athletics is a group of sporting events that involves competitive
+          running, jumping, throwing, and walking. The most common types of
+          athletics competitions are track and field, road running, cross
+          country running, and racewalking.
+        </p>
+        <p>Olympic: Present since inaugural</p>
+        <p>Highest governing body</p>
+        <p>
+          Sprinting is running over a short distance at the top-most speed of
+          the body in a limited period of time. It is used in many sports that
+          incorporate running, typically as a way of quickly reaching a target
+          or goal, or avoiding or catching an opponent.
+        </p>
+      </div>
+    </div>
+    <div id="fb">
+      <div id="bbb">
+        <h1>AMERICAN FOOTBALL</h1>
+        <p>
+          American football, also referred to simply as football in the United
+          States and Canada, and also known as gridiron, is a team sport played
+          by two teams of eleven players on a rectangular field with goalposts
+          at each end.
+        </p>
+        <p>Olympic: No (demonstrated at the 1932 Summer Olympics)</p>
+        <p>
+          Equipment: Football; Football helmet; Pads (shoulder, thigh, knee, and
+          optionally elbow pads)
+        </p>
+        <p>Contact: Full</p>
+        <p>
+          World Games: Yes (invitational sport at 2005, 2017, and 2022 (flag
+          football) Games)
+        </p>
+        <p>Country or region: Worldwide (most popular in North America)</p>
+        <p>
+          First played: November 6, 1869; New Brunswick, New Jersey, United
+          States; (Princeton vs. Rutgers)
+        </p>
+        <p>
+          Highest governing body: International Federation of American Football
+        </p>
+      </div>
+    </div>
+    <div id="body">
+      <div id="bob">
+        <h1>BODY BUILDING</h1>
+        <p>
+          Bodybuilding is the use of progressive resistance exercise to control
+          and develop one's muscles by muscle hypertrophy for aesthetic
+          purposes. It is distinct from similar activities such as powerlifting
+          because it focuses on physical appearance instead of strength.
+        </p>
+        <p>World Games: 1981–2009</p>
+        <p>First developed: England, late 19th century</p>
+        <p>
+          Highest governing body: International Federation of BodyBuilding &
+          Fitness
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
